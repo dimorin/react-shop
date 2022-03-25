@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
+/* $primary:       $blue !default; */ //!default 라고 되어있는 것들은 bootstrap 위에 정의해주면, 덮어씌어진다.
+@import './common/color.scss';
+@import 'bootstrap/scss/bootstrap';

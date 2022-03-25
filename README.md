@@ -1,3 +1,25 @@
+1. axios는 따로 service 폴더에 넣기
+2. proxy 처리 (https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%85%B8%EB%93%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EB%B3%B8/lecture/37084?tab=curriculum)
+3. useCallback, memo
+
+
+# shoes shop에서 사용한 라이브러리
+1. 라우터 관리 - react-router-dom 
+2. 비동기처리 - axios
+3. ui - react-bootstrap
+4. sass - node-sass
+5. 전역 데이터 관리 - redux, react-redux, redux-devtools-extension
+6. icon - react-icons
+# 리액트 개발시 유의점
+1. 정보는 최상단 컴포넌트에서 관리한다.
+2. 직잡 DOM을 조작하지 않는다. 변수나 클래스네임과 같은 데이터 변경은 리액트룰에 따른다.(useState)
+3. useEffect 사용시 return 함수를 통해 unmount 처리도 잊지 않는다.
+4. 테스트를 하자.
+5. style={{}}, onClick={() => {}} 이렇게 하지 말고, style={container}, onClick={handlerChange} 이렇게 하자.
+
+# UI components 구현
+- button 참고 [buttonReactComponent](https://github.com/dimorin/buttonReactComponent/blob/master/src/components/button.scss)
+- color 참고 [https://yeun.github.io/open-color/](https://yeun.github.io/open-color/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
